@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.TZ1" title="@Strings.TimeZone1">
+        <settingConfig type="numeric" />
+    </setting>
+    <setting propertyKey="@Properties.TZ2" title="@Strings.TimeZone2">
+        <settingConfig type="numeric" />
+    </setting>
+</settings>

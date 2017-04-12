@@ -1,0 +1,4 @@
+<properties>
+    <property id="TZ1" type="number">120</property>
+    <property id="TZ2" type="number">-375</property>
+</properties>
