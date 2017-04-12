@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="6" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="10" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="11" pc="268435483" symbol="onLayout"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="17" pc="268435521" symbol="onShow"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="21" pc="268435526" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="23" pc="268435530" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="29" pc="268435551" symbol="onHide"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="5" pc="268435556" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="6" pc="268435560" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="7" pc="268435578" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="10" pc="268435602" symbol="onStart"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="11" pc="268435606" symbol="onStart"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="14" pc="268435630" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="15" pc="268435634" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="18" pc="268435672" symbol="onStop"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="19" pc="268435676" symbol="onStop"/>
+<entry filename="Rez" lineNum="19" pc="268435700" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="21" pc="268435704" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="22" pc="268435835" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268435887" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268435939" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="14" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="9" object="true" symbol="WorldClockApp"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="15" symbol="AppName"/>
+<entry id="8" object="true" symbol="WorldClockView"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="12" symbol="id_monkey"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="10" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435956" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268435704"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="WorldClockView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="WorldClockView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onShow" parent="WorldClockView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate" parent="WorldClockView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onHide" parent="WorldClockView">
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="WorldClockApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="WorldClockApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="getInitialView" parent="WorldClockApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStop" parent="WorldClockApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
