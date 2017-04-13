@@ -12,55 +12,53 @@
 <entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="28" pc="268435701" symbol="onLayout"/>
 <entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="29" pc="268435740" symbol="onLayout"/>
 <entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="30" pc="268435783" symbol="onLayout"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="32" pc="268435826" symbol="onLayout"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="38" pc="268435864" symbol="onShow"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="43" pc="268435869" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="45" pc="268435873" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="46" pc="268435885" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="47" pc="268435898" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="48" pc="268435911" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="49" pc="268435921" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="51" pc="268435928" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="52" pc="268435964" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="55" pc="268435990" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="56" pc="268436007" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="58" pc="268436047" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="60" pc="268436057" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="61" pc="268436093" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="63" pc="268436168" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="64" pc="268436204" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="67" pc="268436268" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="68" pc="268436278" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="69" pc="268436314" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="71" pc="268436389" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="72" pc="268436425" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="78" pc="268436490" symbol="onHide"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="8" pc="268436495" symbol="initialize"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="9" pc="268436499" symbol="initialize"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="10" pc="268436517" symbol="initialize"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="14" pc="268436541" symbol="onStart"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="18" pc="268436546" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="19" pc="268436550" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="23" pc="268436588" symbol="onStop"/>
-<entry filename="Rez" lineNum="21" pc="268436593" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="33" pc="268435827" symbol="onShow"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="38" pc="268435832" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="40" pc="268435836" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="41" pc="268435848" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="42" pc="268435861" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="43" pc="268435874" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="44" pc="268435884" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="47" pc="268435891" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="48" pc="268435927" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="51" pc="268435953" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="52" pc="268435970" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="55" pc="268436010" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="56" pc="268436020" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="57" pc="268436056" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="59" pc="268436131" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="60" pc="268436167" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="63" pc="268436231" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="64" pc="268436241" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="65" pc="268436277" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="67" pc="268436352" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="68" pc="268436388" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="70" pc="268436452" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="71" pc="268436488" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockView.mc" lineNum="75" pc="268436530" symbol="onHide"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="6" pc="268436535" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="7" pc="268436539" symbol="initialize"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="11" pc="268436558" symbol="onStart"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="15" pc="268436563" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="16" pc="268436567" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ronald\\Documents\\GitHub\\WorldClock\\source\\WorldClockApp.mc" lineNum="20" pc="268436605" symbol="onStop"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="19" symbol="TZ1Name"/>
+<entry field="true" id="18" symbol="TZ1Name"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8388640" symbol="Lang"/>
-<entry id="17" method="true" symbol="MainLayout"/>
 <entry field="true" id="13" symbol="TZ2_name"/>
-<entry field="true" id="20" symbol="TimeZone2"/>
-<entry field="true" id="18" symbol="TimeZone1"/>
+<entry field="true" id="19" symbol="TimeZone2"/>
+<entry field="true" id="17" symbol="TimeZone1"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="21" symbol="TZ2Name"/>
+<entry field="true" id="20" symbol="TZ2Name"/>
 <entry id="9" object="true" symbol="WorldClockApp"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="22" symbol="AppName"/>
+<entry field="true" id="21" symbol="AppName"/>
 <entry id="8" object="true" symbol="WorldClockView"/>
 <entry id="8388641" symbol="Math"/>
 <entry id="8388646" symbol="Timer"/>
@@ -80,13 +78,13 @@
 <localVars>
 <entry endPc="268435634" name="hour" stackId="2" startPc="268435460"/>
 <entry endPc="268435634" name="minute" stackId="3" startPc="268435460"/>
-<entry endPc="268436489" name="center" stackId="4" startPc="268435873"/>
-<entry endPc="268436489" name="height" stackId="3" startPc="268435873"/>
-<entry endPc="268436489" name="UTC" stackId="7" startPc="268435873"/>
-<entry endPc="268436489" name="now" stackId="6" startPc="268435873"/>
-<entry endPc="268436489" name="width" stackId="2" startPc="268435873"/>
-<entry endPc="268436489" name="strOffset" stackId="5" startPc="268435873"/>
-<entry endPc="268436489" name="y" stackId="8" startPc="268435873"/>
+<entry endPc="268436529" name="center" stackId="4" startPc="268435836"/>
+<entry endPc="268436529" name="height" stackId="3" startPc="268435836"/>
+<entry endPc="268436529" name="UTC" stackId="7" startPc="268435836"/>
+<entry endPc="268436529" name="now" stackId="6" startPc="268435836"/>
+<entry endPc="268436529" name="width" stackId="2" startPc="268435836"/>
+<entry endPc="268436529" name="strOffset" stackId="5" startPc="268435836"/>
+<entry endPc="268436529" name="y" stackId="8" startPc="268435836"/>
 </localVars>
 <annotations/>
 <functions>
@@ -124,10 +122,6 @@
 <functionEntry name="onStop" parent="WorldClockApp">
 <param id="state"/>
 <documentation/>
-</functionEntry>
-<functionEntry name="MainLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>
 </functions>
 </debugInfo>
