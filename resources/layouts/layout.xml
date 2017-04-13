@@ -1,3 +1,0 @@
-<layout id="MainLayout">
-    <label text="@Strings.Time1" x="center" y="25" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_DK_GRAY" />
-</layout>
