@@ -1,4 +1,6 @@
 <strings>
+	<string id="AppName">WorldClock</string>
     <string id="TimeZone1">Timezone 1</string>
+    <string id="Time1">00:00</string>
     <string id="TimeZone2">Timezone 2</string>
 </strings>

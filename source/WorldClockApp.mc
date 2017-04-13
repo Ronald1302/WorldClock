@@ -4,6 +4,8 @@ using Toybox.Lang as Lang;
 using Toybox.Math as Math;
 using Toybox.Timer as Timer;
 
+
+
 class WorldClockApp extends App.AppBase {
 	var TZ1 = 0;
 	var TZ2 = 0;
@@ -13,7 +15,8 @@ class WorldClockApp extends App.AppBase {
 	function printTime(time) {
 		var hour = Math.floor(time/60) > 23 ? Math.floor(time/60)-24 : Math.floor(time/60);
 		var minute = time % 60;
-    	System.println(Lang.format("$1$:$2$", [hour.format("%.2i"), minute.format("%.2i")]));
+		var timeString =Lang.format("$1$:$2$", [hour.format("%.2i"), minute.format("%.2i")]); 
+    	System.println(timeString);
 	}
 	
 	
