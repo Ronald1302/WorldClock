@@ -10,6 +10,7 @@ class WorldClockView extends Ui.View {
 	var TZ2 = 0;
 	var TZ1_name = "";
 	var TZ2_name = "";
+	var width = 0;
 	
 	function printTime(time) {
 		var hour = Math.floor(time/60) > 23 ? Math.floor(time/60)-24 : Math.floor(time/60);
@@ -24,6 +25,8 @@ class WorldClockView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
+    	width = dc.getWidth();
+    	
     	TZ1 = Application.getApp().getProperty("TZ1");
     	TZ2 = Application.getApp().getProperty("TZ2");
     	TZ1_name = Application.getApp().getProperty("TZ1name");
@@ -33,42 +36,62 @@ class WorldClockView extends Ui.View {
     function onShow() {
     	
     }
+    
 
     // Update the view
     function onUpdate(dc) {
         // Prepare some constants
         dc.clear();
-        var width = dc.getWidth();
-        var height = dc.getHeight();
         var center = width/2;
-        var strOffset = 40;
+        var sep = 1;
+        var SizeSmall = 13;
+        var SizeMedium = 14;
+        var SizeLarge = 22;
+        var LineSep = 11;
         
         // Set background
         dc.setColor(Gfx.COLOR_BLACK , Gfx.COLOR_BLACK);
-        dc.fillRectangle(0, 0, width, height);
+        dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
         
         // Get current UTC time
         var now = Sys.getClockTime();
     	var UTC = now.hour*60 + now.min - now.timeZoneOffset/60;
-    	    	
-    	// Draw timezone 1
-        var y = height * 0.25;
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+    	
+    	
+    	// text TZ 1
+    	var y = SizeMedium + sep;
+    	dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT); 
+        dc.drawText(center, y, Gfx.FONT_MEDIUM, TZ1_name, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        
+        // Time TZ1
+        y += SizeMedium + sep + SizeLarge;
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         dc.drawText(center, y, Gfx.FONT_NUMBER_THAI_HOT, printTime(UTC+TZ1), Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         
-        dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK); 
-        dc.drawText(center, y-strOffset, Gfx.FONT_MEDIUM, TZ1_name, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        // Separator line
+        y += SizeLarge + sep + LineSep;
+        dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT); 
+        dc.drawLine(10, y, width-10, y);
         
-        // Draw timezone 2
-        y = height * 0.75;
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+        // Text TZ2
+        y += SizeMedium;
+        dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT); 
+        dc.drawText(center, y, Gfx.FONT_MEDIUM, TZ2_name, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        
+        // Time TZ2
+        y += SizeMedium + sep + SizeLarge;
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         dc.drawText(center, y, Gfx.FONT_NUMBER_THAI_HOT, printTime(UTC+TZ2), Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         
-        dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK); 
-        dc.drawText(center, y-strOffset, Gfx.FONT_MEDIUM, TZ2_name, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        // Separator line
+        y += SizeLarge + sep + LineSep;
+        dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT); 
+        dc.drawLine(10, y, width-10, y);
         
-        dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_BLACK); 
-        dc.drawLine(10, height/2, width-10, height/2);
+        // Current time
+        y += sep + SizeSmall;
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT); 
+        dc.drawText(center, y, Gfx.FONT_NUMBER_MILD, Lang.format("$1$:$2$", [now.hour.format("%.2i"), now.min.format("%.2i")]), Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);        
     }
 
 
