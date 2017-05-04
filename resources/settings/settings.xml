@@ -5,4 +5,10 @@
     <setting propertyKey="@Properties.TZ2" title="@Strings.TimeZone2">
         <settingConfig type="numeric" />
     </setting>
+    <setting propertyKey="@Properties.TZ1name" title="@Strings.TimeZoneName1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.TZ2name" title="@Strings.TimeZoneName2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 </settings>

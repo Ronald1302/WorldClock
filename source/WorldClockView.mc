@@ -26,8 +26,8 @@ class WorldClockView extends Ui.View {
     function onLayout(dc) {
     	TZ1 = Application.getApp().getProperty("TZ1");
     	TZ2 = Application.getApp().getProperty("TZ2");
-    	TZ1_name = Ui.loadResource(Rez.Strings.TZ1Name);
-    	TZ2_name = Ui.loadResource(Rez.Strings.TZ2Name);
+    	TZ1_name = Application.getApp().getProperty("TZ1name");
+    	TZ2_name = Application.getApp().getProperty("TZ2name");
     }
 
     function onShow() {
@@ -50,7 +50,7 @@ class WorldClockView extends Ui.View {
         // Get current UTC time
         var now = Sys.getClockTime();
     	var UTC = now.hour*60 + now.min - now.timeZoneOffset/60;
-    	
+    	    	
     	// Draw timezone 1
         var y = height * 0.25;
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);

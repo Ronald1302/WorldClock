@@ -1,7 +1,7 @@
 <strings>
 	<string id="AppName">WorldClock</string>
     <string id="TimeZone1">Timezone 1</string>
-    <string id="TZ1Name">Amsterdam</string>
     <string id="TimeZone2">Timezone 2</string>
-    <string id="TZ2Name">Melbourne</string>
+    <string id="TimeZoneName1">Timezone 1</string>
+    <string id="TimeZoneName2">Timezone 2</string>
 </strings>
