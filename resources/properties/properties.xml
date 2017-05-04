@@ -1,4 +1,6 @@
 <properties>
-    <property id="TZ1" type="number">120</property>
-    <property id="TZ2" type="number">660</property>
+    <property id="TZ1" type="number">600</property>
+    <property id="TZ2" type="number">-60</property>
+    <property id="TZ1name" type="string">Melbourne</property>
+    <property id="TZ2name" type="string">Azores</property>
 </properties>
